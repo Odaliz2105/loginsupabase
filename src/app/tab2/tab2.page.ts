@@ -29,8 +29,7 @@ import {
   IonList,
   IonItem,
   IonListHeader,
-  IonProgressBar,
-  IonButton
+  IonProgressBar
 } from '@ionic/angular/standalone';
 
 @Component({
@@ -56,8 +55,7 @@ import {
     IonList,
     IonItem,
     IonListHeader,
-    IonProgressBar,
-    IonButton
+    IonProgressBar
   ]
 })
 export class Tab2Page {

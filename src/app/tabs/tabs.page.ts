@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+
 import {
   IonTabs,
   IonTabBar,
@@ -11,13 +12,15 @@ import { addIcons } from 'ionicons';
 import {
   home,
   person,
-  camera
+  camera,
+  images,
+  image,
+  logoElectron
 } from 'ionicons/icons';
 
 @Component({
   selector: 'app-tabs',
   templateUrl: './tabs.page.html',
-  styleUrls: ['./tabs.page.scss'],
   standalone: true,
   imports: [
     IonTabs,
@@ -33,7 +36,10 @@ export class TabsPage {
     addIcons({
       home,
       person,
-      camera
+      camera,
+      images,
+      image,
+      logoElectron
     });
   }
 
